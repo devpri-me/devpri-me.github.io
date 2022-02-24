@@ -1,2 +1,2 @@
-# devpri-me.github.io
-devpri.me
+# devpri-me
+https://devpri.me

@@ -65,6 +65,7 @@ a.button:hover {
 a.button:active {
   box-shadow: none;
   transform: translate(5px, 5px);
+  -webkit-transform: translate(5px, 5px);
 }
 
 @media screen and (max-width: 700px) {

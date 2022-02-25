@@ -53,6 +53,7 @@ a.button {
   padding: 15px;
   border-radius: 10px;
   font-weight: 600;
+  font-variation-settings: "wght" 600;
   border: 1px solid #1e1c1c;
   box-shadow: 1px 1px 0px #ffffff, 2px 2px 0px #ffffff, 3px 3px 0px #ffffff,
     4px 4px 0px #ffffff, 5px 5px 0px #ffffff, 6px 6px 0px #ffffff;

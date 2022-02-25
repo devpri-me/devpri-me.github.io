@@ -20,17 +20,19 @@ body {
 }
 
 img.logo {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 2%;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5%;
   border: 1px solid #ffffff;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px #ffffff, 2px 2px 0px #ffffff, 3px 3px 0px #ffffff,
+    4px 4px 0px #ffffff, 5px 5px 0px #ffffff, 6px 6px 0px #ffffff;
 }
 
 .description {
   font-size: 2.5vh;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 a.button {
@@ -42,6 +44,28 @@ a.button {
   color: initial;
   background-color: #ffffff;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: 600;
+  border: 1px solid #1e1c1c;
+  box-shadow: 1px 1px 0px #ffffff, 2px 2px 0px #ffffff, 3px 3px 0px #ffffff,
+    4px 4px 0px #ffffff, 5px 5px 0px #ffffff, 6px 6px 0px #ffffff;
+}
+
+a.button:hover {
+  background-color: #e0dfdc;
+}
+
+a.button:active {
+  box-shadow: none;
+  transform: translate(5px, 5px);
+}
+
+@media screen and (max-width: 700px) {
+  img.logo {
+    margin-bottom: 10%;
+  }
+
+  .description {
+    margin-bottom: 10%;
+  }
 }

@@ -79,3 +79,8 @@ a.button:active {
     margin-right: 10%;
   }
 }
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("./fonts/JetBrainsMono-VariableFont_wght.ttf") format("truetype");
+}
